@@ -1,0 +1,277 @@
+.ah{
+    font-weight: 500;
+    text-decoration: none;
+    font-weight: bold;
+    color:azure;
+}
+
+.ah:hover{
+    color: black;
+    
+}
+
+.main{
+    text-align: center;
+}
+
+/*header関係*/
+.header{
+    background-image: url(../Run-C/RC_image/RC_header2.png);
+    height: 150px;
+}
+
+#title{
+    float: left;
+    padding: 20px 0px 0px 10px;
+    margin: 0px 0px 20px 20px;
+}
+
+#concept{
+    float: left;
+    padding-left: 40%;
+}
+
+.hyper{
+    clear: left;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.hyperlink{
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+
+.logout{
+    clear: left;
+    margin-top: 23px;
+    margin-left: 40px;
+    background-color: rgba(FF,FF,FF,0.3);
+}
+
+.hyperonly{
+    clear: left;
+    float: right;
+    padding-top: 15px;
+    margin-right: 20px;
+}
+
+
+/*ログイン登録関係*/
+
+.fontT{
+    font-family: "メイリオ", sans-serif;
+    font-size: 150%;
+    letter-spacing: 10px;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+.fontT:before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    width: 60px;
+    height: 5px;
+    left: 49.6%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: black;
+    border-radius: 2px;
+}
+
+.boxT{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: black;
+    background: white;
+    border-top: solid 5px black;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.button {
+  background-color: #333;
+  border: 2px solid #333;
+  color: #fff;
+  line-height: 50px;
+}
+
+.button:hover{
+  background-color: #fff;
+  border-color: #666;
+  color: #666;
+}
+
+.button1{
+    position: relative;
+    overflow: hidden;
+    float: left;
+    left: 33%;
+}
+
+.button2{
+
+}
+
+.aT{
+    color: black;
+}
+
+.aT:hover{
+    color :#666;
+}
+
+.text1{
+    font-family: "メイリオ", sans-serif;
+}
+
+
+/*マイページ*/
+
+#first{
+    color: red;
+    padding-top: 10px;
+    font-family: "メイリオ", sans-serif;
+    font-weight: bold;
+    line-height: 4px;
+    float: clear;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+li {
+	background: rgba(0,100,255,.1);
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+	margin: 10px;
+}
+
+#made{
+    background: rgba(0,50,255,.2);
+}
+
+ul.top{
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+ul.top li{
+    position: relative;
+    overflow: hidden;
+    font-size: 150%;
+    display: inline;
+}
+
+#sportput{
+    position: relative;
+    overflow: hidden;
+    font-size: 130%;
+}
+
+h4{
+    display: flex;
+    align-items: center;
+}
+
+h4.h4f{
+    padding:0px 400px;
+}
+
+h4:before,
+h4:after{
+    border-top: 2px solid;
+    content: "";
+    flex-grow: 1;
+}
+
+h4:before{
+    margin-right: 1rem;
+}
+
+h4:after{
+    margin-left: 1rem;
+}
+
+#data{
+    float: left;
+    margin-left: 20%;
+}
+
+
+#diary{
+    float: right;
+    margin-right: 20%;
+}
+
+h5{
+    text-align: center;
+    font-family: serif;
+    font-size: 16px;
+}
+
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background: none transparent;
+  vertical-align: middle;
+  font-size: inherit;
+  color: inherit;
+  box-sizing: content-box;
+}
+
+.custom {
+  overflow: hidden;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: relative;
+  border-radius: 0.2em;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 0 #AAA;
+  background-color: white;
+}
+
+
+.custom > select {
+  width: 130%;
+  padding: 0.6em 2.4em 0.6em 0.6em;
+  font-size: 1rem;
+}
+
+
+.custom:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 1.8em;
+  display: block;
+  content: "";
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGFBMVEUAAAAZJCYWISIYIyQYIiUWIiIYIyQYIiXh0rToAAAACHRSTlMA/hTRqiinvwFkb0sAAABCSURBVHjajchBDsAgDAPBOJDw/x+XVN0icQGfPGs3i+2GEqeiLCXWLENzvdzrDfP2ls/NjfKbgimYglfBq2Dm+LwHguMA235EdKYAAAAASUVORK5CYII=") center no-repeat;
+  pointer-events: none;
+}
+
+
+/*各種機能*/
+.size{
+    font-size: 150%;
+    font-family: "メイリオ", sans-serif;
+}
